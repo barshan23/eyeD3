@@ -7,210 +7,8 @@
 	},
 	"item": [
 		{
-			"name": "pets",
+			"name": "New Folder",
 			"item": [
-				{
-					"name": "List all pets",
-					"id": "564f98ac-fc03-4bae-9582-1d38780eff0f",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Accept",
-								"value": "application/json"
-							}
-						],
-						"url": {
-							"raw": "{{baseUrl}}/pets?limit1=<integer>",
-							"host": [
-								"{{baseUrl}}"
-							],
-							"path": [
-								"pets"
-							],
-							"query": [
-								{
-									"key": "limit1",
-									"value": "<integer>",
-									"description": "How many items to return at one time (max 100)"
-								}
-							]
-						}
-					},
-					"response": [
-						{
-							"id": "9f0e2015-0f4a-49fc-9acc-56c8a9eac76a",
-							"name": "200",
-							"originalRequest": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"url": {
-									"raw": "{{baseUrl}}/pets?limit1=<integer>",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"pets"
-									],
-									"query": [
-										{
-											"description": "How many items to return at one time (max 100)",
-											"key": "limit1",
-											"value": "<integer>"
-										}
-									]
-								}
-							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "application/json",
-									"enabled": true,
-									"uuid": "8aed93a9-1bbe-4d77-9fe9-0ca43eca418c"
-								}
-							],
-							"cookie": [],
-							"body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
-						},
-						{
-							"id": "f5774a2a-3534-4385-89ba-be32e6ca7943",
-							"name": "400",
-							"originalRequest": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"url": {
-									"raw": "{{baseUrl}}/pets?limit1=<integer>",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"pets"
-									],
-									"query": [
-										{
-											"description": "How many items to return at one time (max 100)",
-											"key": "limit1",
-											"value": "<integer>"
-										}
-									]
-								}
-							},
-							"status": "Bad Request",
-							"code": 400,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "application/json",
-									"enabled": true,
-									"uuid": "4047d8b4-52c2-48f7-b8ec-5373cfbd754f"
-								}
-							],
-							"cookie": [],
-							"body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
-						},
-						{
-							"id": "130475f4-8b7a-4717-ba18-114d85ca56a0",
-							"name": "409",
-							"originalRequest": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"url": {
-									"raw": "{{baseUrl}}/pets?limit1=<integer>",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"pets"
-									],
-									"query": [
-										{
-											"description": "How many items to return at one time (max 100)",
-											"key": "limit1",
-											"value": "<integer>"
-										}
-									]
-								}
-							},
-							"status": "Conflict",
-							"code": 409,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "application/json",
-									"enabled": true,
-									"uuid": "a86cebc5-a592-4c06-886b-59748381d954"
-								}
-							],
-							"cookie": [],
-							"body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
-						},
-						{
-							"id": "8403880d-474b-46c7-812a-2975ea708fac",
-							"name": "unexpected error",
-							"originalRequest": {
-								"method": "GET",
-								"header": [
-									{
-										"key": "Accept",
-										"value": "application/json"
-									}
-								],
-								"url": {
-									"raw": "{{baseUrl}}/pets?limit1=<integer>",
-									"host": [
-										"{{baseUrl}}"
-									],
-									"path": [
-										"pets"
-									],
-									"query": [
-										{
-											"description": "How many items to return at one time (max 100)",
-											"key": "limit1",
-											"value": "<integer>"
-										}
-									]
-								}
-							},
-							"status": "Internal Server Error",
-							"code": 500,
-							"_postman_previewlanguage": "json",
-							"header": [
-								{
-									"key": "Content-Type",
-									"value": "application/json",
-									"enabled": true,
-									"uuid": "2ed5b403-559f-4ace-8953-31dbc8b12dee"
-								}
-							],
-							"cookie": [],
-							"body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
-						}
-					]
-				},
 				{
 					"name": "Create Pet record",
 					"id": "39689cf1-1234-4727-b819-51694e26f8ea",
@@ -482,9 +280,39 @@
 							"body": "{\n  \"code\": \"<integer>\",\n  \"message\": \"<string>\"\n}"
 						}
 					]
+				},
+				{
+					"name": "New Request",
+					"id": "93287bfb-7a6e-488e-9600-df7b219548dd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
-			"id": "a17a24fb-d711-4f8a-858f-4f7193bbcf65"
+			"id": "b68497d0-53c2-4ef6-aa96-ebd1add0d854"
+		},
+		{
+			"name": "New Folder",
+			"item": [
+				{
+					"name": "New Request",
+					"id": "17137ffb-7433-40ee-b077-4ac45c0c7c41",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
+			"id": "6a899c6b-5c6e-4086-8b25-5b4a279d7dd6"
 		}
 	],
 	"variable": [
