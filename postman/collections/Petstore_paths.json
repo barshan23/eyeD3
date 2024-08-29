@@ -5,7 +5,20 @@
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_uid": "6294718-4b60e847-122d-490a-b30e-b7d65ff15f3f"
 	},
-	"item": [],
+	"item": [
+		{
+			"name": "New Request",
+			"id": "2f65fc0f-573f-4c9f-bf81-00d26d641ca0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
 	"variable": [
 		{
 			"id": "074eba87-120a-46c7-876d-ad97f2adb271",
