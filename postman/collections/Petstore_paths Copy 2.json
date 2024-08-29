@@ -1,14 +1,14 @@
 {
 	"info": {
-		"_postman_id": "2891fb0e-1b0f-4904-acf5-2cf5ec9e9e73",
-		"name": "Petstore_paths",
+		"_postman_id": "6bded36f-bd0a-435b-9ba4-ef653e7f0ccf",
+		"name": "Petstore_paths Copy 2",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_uid": "6294718-2891fb0e-1b0f-4904-acf5-2cf5ec9e9e73"
+		"_uid": "6294718-6bded36f-bd0a-435b-9ba4-ef653e7f0ccf"
 	},
 	"item": [
 		{
 			"name": "New Request",
-			"id": "40727a5f-62c1-4009-be0a-a136b9c5220b",
+			"id": "1d5ee91c-66e4-41fb-b5e1-47f27bd8057e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -24,7 +24,7 @@
 	],
 	"variable": [
 		{
-			"id": "f4b8f3fc-7314-41c2-b218-b5cc69c4fdc0",
+			"id": "6f3a91de-9d55-484c-bf9e-09aad7eafd8b",
 			"key": "baseUrl",
 			"value": "http://petstore.swagger.io/v1"
 		}
